@@ -4,29 +4,36 @@
     <title>Using internal CSS</title>
     <style type="text/css">
     body{ 
-  font-family:arial;
-  background-color:white;}
+       background-color:white;}
   h1 {
-    font-family:arial;
+    font-family:Georgia, Times, serif;
+    font-size:250%;
+    text-shadow:springgreen;
+    padding-bottom:10px;
     color:lightblack;}
   h2 {
     font-family:arial;
     color:lightblack;}
     p {
       font-family:arial;
-      font-style:oblique;
+      font-style:italic;
+      line-height: 1.4em;
       color:lightblack;}
-      a {
+      p.intro:first-letter{
+        font-size:150%}
+        a{
           text-decoration: none;}
           a:hover{
             color:lightgreen;
-            text-decoration: line-through;}
-          a:visited {
+            text-decoration: line-through;
+          }
+          a:visited{
             color:orchid;
-            text-decoration: none;}
-          input.submit:hover {
+            text-decoration: none;
+          }
+          input.submit:hover{
             background-color:slateblue;}
-            input.submit:active {
+            input.submit:active{
               background-color:slategray;}
 </style>
   </head>
