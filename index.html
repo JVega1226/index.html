@@ -11,15 +11,24 @@
   h1 {
     text-shadow:springgreen;
     padding-bottom:10px;
-    color:lightblue;}
+    color:burgandy;}
   h2 {
     padding: 10px;
     color:lightskyblue;}
-  p {
+  p.one {
     font-family:arial;
     font-style:italic;
     line-height: 1.4em;
     color:black;}
+  p.two {
+    border-style:groove;
+    border-top-color:pink;
+    border-left-color:black;
+    boarder-bottom-color:pink;
+    font-family:arial;
+    font-style:italic;
+    line-height: 1.4em;
+    color:black;}  
   a {
     text-decoration: none;}
   a:hover{
@@ -29,7 +38,7 @@
     color:orchid;
     text-decoration: none;}
   input.submit:hover {
-    background-color:blue;}
+    background-color:blueviolet;}
   input.submit:active {
     background-color:slategray;}
 </style>
@@ -44,7 +53,7 @@
   <h2><b>Check out my car instagram!</b></h2>
   <img src="https://user-images.githubusercontent.com/80492891/117741246-d1fb3e80-b1b6-11eb-81e0-6b1a74c360ac.jpeg" alt="300s" name="My car" width="550" 
        height="600"/>
-  <p>If you got some spare time, have a look at my car page. There you will see a collection of pictures. Some from when I was streaming on twitch and other fashion
+  <p class="one">If you got some spare time, have a look at my car page. There you will see a collection of pictures. Some from when I was streaming on twitch and other fashion
     post that I was inspired by. Long story short, follow lol. <b>Thank you</b> for visiting the site.
   </p>
       <li><a href="http://www.Instagram.com/300s_boi"target="_blank">300s_boi</a></li>
@@ -53,7 +62,8 @@
     </ul>
     <hr/>
     <form name="contact" method="POST" data-netlify="true">
-    <p>what do you think of the site?</p>
+    <p class="two">what do you think of the site? Please leave a comment. It will mean alot.
+      Thank you!</p>
   <textarea name="comments" cols="20" rows="4"> Enter your comments...</textarea>
       <input type="submit" name="submit" value="submit"/>
 </form>
