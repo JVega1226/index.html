@@ -5,6 +5,13 @@
     <style type="text/css">
   body { 
     background-color:white;}
+  #page {
+    max-width:940px;
+    min-width:720px;
+    margin:10px auto 10px auto
+    padding:20px;
+    border:4px double #000;
+    background-color:#ffffff;}
   h1, h2 {
     font-family:Georgia, Times, serif;
     font-size:200%;}
@@ -14,22 +21,28 @@
   h2 {
     padding: 10px;
     color:lightskyblue;}
-  div {
-    height:300px;
-    width:400px;
-    background-color:#ee3e80;}  
+  ul {
+    width:570px;
+    padding:15px;
+    margin:0px auto 25px auto;
+    border-top: 2px solid #000;
+    border-bottom:1px solid #000;
+    text-align: center;}
+  li {
+    display: inline;
+    margin: 0px 3px;}
   p.one {
+    text-align:center;
     height:75%;
-    width:75%
-    background-color:#e1ddda;
+    width:75%;
+    font-family:arial;
     font-style:italic;
-    line-height: 1.4em;
-    margin:10px;}
+    line-height: 1.4em;}
   p.two {
     font-family:arial;
     font-style:italic;
     line-height: 1.4em;
-    color:black;}  
+    color:black;} 
   a {
     text-decoration: none;}
   a:hover{
@@ -45,6 +58,7 @@
 </style>
   </head>
   <body>
+    <div id="page">
     <h1>Welcome to my First Web Page</h1>
     <p>New to the coding world. Navigating my way through the wonders we call HTML and other coding languages.</p>
   </body>
@@ -69,5 +83,6 @@
   <textarea name="comments" cols="20" rows="4"> Enter your comments...</textarea>
       <input type="submit" name="submit" value="submit"/>
 </form>
+  </div>
    </body>
 </html>
