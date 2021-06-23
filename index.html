@@ -3,80 +3,77 @@
   <head>
     <title>Using internal CSS</title>
     <style type="text/css">
-    body{
-        background-color:aqua;
-    }
-    h1,h2{
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        Font-size:150%;
-    }
-    h1{
-        padding-bottom:10px;
-        color:black;
-    }
-    h2{
-        padding:10px;
-        color:black;
-    }
-    ul{
-        width:570px;
-        padding:15px;
-        margin:0px,auto,0px,auto;
-        border-top:2px,solid,#000;
-        border-bottom:2px,solid,#000;
-        text-align:center;
-    }
-    li{
-        display:inline;
-        margin-right:10px;
-    }
-    p.one{
-        text-align:center;
-        height:75%;
-        width:75%;
-        font-family:arial;
-        font-style:italic;
-        line-height:1.4em;
-        color:#000;
-    }
-    p.two{
-        font-family:arial;
-        font-style:italic;
-        line-height:1.4em;
-        color:#000;
-    }
-    a{
-        text-decoration:none;
-    }
-    a:visited{
-        color:crimson;
-        text-decoration:line-through;
-    }
-    </style>
-    </head>
-    <body>
-        <h1>Hello everyone, and welcome to my site.</h1>
-        <p>I am new to this world we call coding. I started at the beginning of the year, and I must say,
-            I am having fun learning all this has to offer. Yes, I do get frustrated. But thats part of 
-            the learning process. I can't wait to see the progress and the beauty in my site. Again, welcome,
-            and thank you for visiting the site.
-        </p>
-        <ul>
-            <h2>Check out my car instagram!</h2>
-            <img src="https://user-images.githubusercontent.com/80492891/117741246-d1fb3e80-b1b6-11eb-81e0-6b1a74c360ac.jpeg" alt="300s" name="my car" width="550" height="600"/>
-            <p class="one">Well hello again. I guess you got curious about the picture with the beautiful car. All you have to do 
-                is click the link below to be directed to my instagram. If thats not what your looking for, there are other links
-                you can click on. Click on it and see for you self. Thank you, I hope to hear feedback on the new site, or maybe just 
-                a follow on instagram.</p>
-                <li><a herf="http://www.Instagram.com/300s_boi"target="_blank">300s_boi</a></li>
-                <li><a herf="http://solo.to/page"target="_blank">jb_vega12</a></li>
-                <li><a herf="https://www.Twitch.tv/darach_12"target="_blank">darach_12</a></li>
-        </ul>
-        <form name="contact" method="POST" data-netlify="true">
-            <p class="two">What do you think of the site? you can type your comments in the box below. I really appreciate it.
-                Thank you again, and have a wonderful day.</p>
-                <textarea name="comments" cols="20" rows="4">Enter your comments.</textarea>
-                <input type="submit" name="submit" value="submit"/>
-        </form>
-    </body>
-    </html>
+  body { 
+    background-color:white;}
+  h1, h2 {
+    font-family:Georgia, Times, serif;
+    font-size:200%;}
+  h1 {
+    padding-bottom:10px;
+    color:blue;}
+  h2 {
+    padding: 10px;
+    color:lightskyblue;}
+  ul {
+    width:570px;
+    padding:15px;
+    margin:0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom:2px solid #000;
+    text-align: center;}
+  li {
+    display: inline;
+    margin-right:10px}
+  p.one {
+    text-align:center;
+    height:75%;
+    width:75%;
+    font-family:arial;
+    font-style:italic;
+    line-height: 1.4em;}
+  p.two {
+    font-family:arial;
+    font-style:italic;
+    line-height: 1.4em;
+    color:black;}  
+  a {
+    text-decoration: none;}
+  a:hover{
+    color:lightgreen;
+    text-decoration: line-through;}
+  a:visited {
+    color:orchid;
+    text-decoration: none;}
+  input.submit:hover {
+    background-color:blueviolet;}
+  input.submit:active {
+    background-color:slategray;}
+</style>
+  </head>
+  <body>
+    <h1>Welcome to my First Web Page</h1>
+    <p>New to the coding world. Navigating my way through the wonders we call HTML and other coding languages.</p>
+  </body>
+<hr/>
+<body>
+  <ul>
+  <h2><b>Check out my car instagram!</b></h2>
+  <img src="https://user-images.githubusercontent.com/80492891/117741246-d1fb3e80-b1b6-11eb-81e0-6b1a74c360ac.jpeg" alt="300s" name="My car" width="550" 
+       height="600"/>
+  <div>
+  <p class="one">If you got some spare time, have a look at my car page. There you will see a collection of pictures. Some from when I was streaming on twitch and other fashion
+    post that I was inspired by. Long story short, follow lol. <b>Thank you</b> for visiting the site.
+  </p></div>
+      <li><a href="http://www.Instagram.com/300s_boi"target="_blank">300s_boi</a></li>
+      <li><a href="http://solo.to/page"target="_blank">jb_vega12</a></li>
+      <li><a href="https://www.twitch.tv/darach_12"target="_blank">darach_12</a></li>
+    </ul>
+    <hr/>
+    <form name="contact" method="POST" data-netlify="true">
+    <p class="two">what do you think of the site? Please leave a comment. It will mean alot.
+      Thank you!</p>
+  <textarea name="comments" cols="20" rows="4"> Enter your comments...</textarea>
+      <input type="submit" name="submit" value="submit"/>
+</form>
+   </body>
+</html>
