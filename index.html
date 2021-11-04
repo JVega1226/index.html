@@ -1,66 +1,90 @@
+<!DOCTYPE html>
 <html>
-    <body>
-
+    <head>
         <style type="text/css">
-            
-        body {
-            background-color:thistle;
-         }
-            
-        li {
-        display: inline;
-        margin-right:10px;
-        }
+.container {
+    background-color: lightcyan;
+    border: 2px solid black;
+    padding: 10px;
+}
 
-        ul {
-            text-align:center;
-        }
+.car1 {
+    width: 100%;
+}
 
-        h1 {
-            font-family:Georgia;
-            text-align:center;
-        }
+.car-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
 
-           h2 {
-            font-family:italic;
-            text-align:center;
-        }
+  h1 {
+      text-align: center;
+}
 
-           figcaption {
-                color:darkblue
-            }
+.container2 {
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 100px auto;
+}
 
-            p {
-                font-family:Georgia;
-                text-align:center;
-                font-size:18px;
-            }
-            figure {
-                text-align: center;
-            }
-            </style>
-    <header>
-        <h1>Welcome</h1>
-        <p>Hello, and thank you for taking the time to stop by to check out my website. It's still under constuction, but soon it will be ready.
-            Until then, follow the links and check out my social media accounts.</p>
-           <nav>
-            <ul>
-      <li><a href="http://www.Instagram.com/300s_boi"target="_blank">300s_boi</a></li>
-      <li><a href="http://solo.to/page"target="_blank">jb_vega12</a></li>
-      <li><a href="https://www.twitch.tv/darach_12"target="_blank">darach_12</a></li>
-      </ul>
-</header>
-<hr/>
-<main>
-    <section>
-            <h2>My car.</h2>
-        </section>
-    <figure>
-  <img src="https://user-images.githubusercontent.com/80492891/127748639-7ab6d1cb-4520-4889-a911-3c89a7faf9a5.jpeg" alt="300s" name="My car" width="550" 
-       height="600"/>
-        <figcaption>2018 300s.</figcaption>
-       </figure>
-      </main>
-    </nav>
-   </body>
+h2 {
+      text-align: center;
+}
+
+p {
+      text-align: center;
+      color: black;
+}
+
+ol {
+      text-align: center;
+}
+
+li {
+      display: inline;
+      width: 80px;
+      font-weight: 600;
+      margin: 5%;
+}
+
+.container3 {
+    border: 2px solid black;
+    padding: 50px;
+    margin: 100px auto;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome</h1>
+            <div class="car1">
+                <div class="car-panel one">
+                    <img src="resources/images/Pic1.jpeg" width="500" height="600"/>
+                </div>
+                <div class="car-panel two">
+                    <img src="resources/images/Pic2.jpeg" width="500" height="600"/>
+                </div>
+                <div class="car-panel three">
+                    <img src="resources/images/Structure.jpeg" width="500" height="600"/>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <h2>Links:</h2>
+            <ol>
+                <li><a href="https://Instagram.com/300s_boi" target="_blank">300s_boi</a></li>
+                <li><a href="https://Instagram.com/jeff_brian_" target="_blank">jeff_brian_</a></li>
+            </ol>
+        </div>
+        <div class="container3">
+            <h3>About Me:</h3>
+            <p>Hello, and welcome to my website. I have provided links above to help you get a view on who I am as a person. A car page, showing how terrible I am as a photographer as I attempt
+                to take "okay" pictures of my Chrysler 300s. The second link takes you to my personal Instagram account. Currently working through a coding course for front-end developer.</p>
+        </div>
+    </body>
 </html>
