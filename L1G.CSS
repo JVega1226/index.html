@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(119, 136, 153, 0.619);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+nav {
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+ul {
+  display: center;
+  margin: 10px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 10%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin-top: 2%;
+}
+
+.Bio {
+ border: 1px solid black;
+ margin: 50px;
+}
+
+.Cert {
+  border: 1px dotted yellow;
+}
